@@ -33,7 +33,7 @@ export default function AvatarDropdown() {
     navigate('/login');
   };
 
-  const displayUserName = user?.displayName || (user?.email ? user.email.split('@')[0] : 'Học giả HanVault');
+  const displayUserName = user?.displayName || (user?.email ? user.email.split('@')[0] : 'Học giả Hanzy');
 
   return (
     <div className="relative" ref={dropdownRef}>
@@ -115,7 +115,7 @@ export default function AvatarDropdown() {
                 <div className="w-9 h-9 rounded-full bg-app flex items-center justify-center border border-line">
                   <MessageSquare className="w-4 h-4 text-sub" />
                 </div>
-                <span>Góp ý về HanVault</span>
+                <span>Góp ý về Hanzy</span>
               </div>
             </button>
           </div>

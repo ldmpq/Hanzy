@@ -3,12 +3,12 @@ export default function LandingFooter() {
     <footer className="w-full border-t border-line mt-16 bg-surface transition-colors duration-300">
       <div className="max-w-[1400px] mx-auto px-8 md:px-16 py-12 flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
         <div className="max-w-xs">
-          <div className="text-xl font-bold text-brand mb-4">HanVault</div>
+          <div className="text-xl font-bold text-brand mb-4">Hanzy</div>
           <p className="text-sm text-sub mb-6 leading-relaxed">
             Calmly Master the Tongue. A premium learning environment for sophisticated Mandarin students.
           </p>
           <p className="text-[10px] text-sub uppercase font-bold tracking-widest opacity-70">
-            © 2026 HanVault. All rights reserved.
+            © 2026 Hanzy. All rights reserved.
           </p>
         </div>
 

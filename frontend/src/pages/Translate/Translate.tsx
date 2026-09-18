@@ -16,7 +16,7 @@ export default function Translate() {
     }
   }, [inputText]);
 
-  // MockData 1
+  // MockData 1 
   const sourceLanguage = mode === 'translate' ? 'Tiếng Việt' : 'Giản thể (简体)';
   
   // MockData 2
@@ -158,7 +158,7 @@ export default function Translate() {
               <div className="flex-1 flex flex-col">
                 
                 {!inputText ? (
-                  // EMPTY STATE: Mascot Cây HanVault mờ nhạt
+                  // EMPTY STATE: Mascot Cây Hanzy mờ nhạt
                   <div className="flex-1 flex flex-col items-center justify-center opacity-40 select-none">
                     <div className="w-16 h-16 bg-line rounded-full flex items-center justify-center mb-4">
                       <Leaf className="w-8 h-8 text-sub" /> {/* Icon thay thế tạm cho Mascot Cây */}
