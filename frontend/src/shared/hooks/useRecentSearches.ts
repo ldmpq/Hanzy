@@ -3,10 +3,10 @@ import { useAuthStore } from '../store/authStore';
 
 export function useRecentSearches(searchTerm: string) {
   const user = useAuthStore((state) => state.user);
-  const storageKey = user?.email ? `hanvault_recent_searches_${user.email}` : 'hanvault_recent_searches';
+  const storageKey = user?.email ? `Hanzy_recent_searches_${user.email}` : 'Hanzy_recent_searches';
   
   const [recentSearches, setRecentSearches] = useState<string[]>(() => {
-    const saved = localStorage.getItem('hanvault_recent_searches');
+    const saved = localStorage.getItem('Hanzy_recent_searches');
     return saved ? JSON.parse(saved) : [];
   });
 

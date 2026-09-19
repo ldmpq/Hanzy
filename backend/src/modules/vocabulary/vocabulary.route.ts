@@ -106,7 +106,7 @@ router.get('/:id', VocabularyController.getById);
  *                 example: idiom / greeting
  *               audioUrl:
  *                 type: string
- *                 example: https://api.hanvault.com/audio/nihao.mp3
+ *                 example: https://api.Hanzy.com/audio/nihao.mp3
  *               components:
  *                 type: array
  *                 items:

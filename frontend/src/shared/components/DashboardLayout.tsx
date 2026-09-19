@@ -28,7 +28,7 @@ export default function DashboardLayout() {
     <div className="min-h-screen bg-app font-sans flex flex-col text-main transition-colors">
       <header className="w-full flex items-center justify-between py-6 px-6 md:px-16 max-w-[1400px] mx-auto z-50 relative">
         <Link to="/dashboard" className="text-2xl font-bold text-brand tracking-tight">
-          HanVault
+          Hanzy
         </Link>
         
         {/* 1. DESKTOP NAVIGATION */}
@@ -149,9 +149,9 @@ export default function DashboardLayout() {
       <footer className="w-full border-t border-line mt-28 bg-surface">
         <div className="max-w-[1400px] mx-auto px-6 md:px-16 py-12 flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
           <div className="max-w-xs">
-            <div className="text-xl font-bold text-brand mb-4">HanVault</div>
+            <div className="text-xl font-bold text-brand mb-4">Hanzy</div>
             <p className="text-[10px] text-sub uppercase font-bold tracking-widest">
-              © 2026 HanVault. All rights reserved.
+              © 2026 Hanzy. All rights reserved.
             </p>
           </div>
         </div>

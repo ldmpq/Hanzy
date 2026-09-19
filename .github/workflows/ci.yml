@@ -1,4 +1,4 @@
-name: HanVault CI
+name: Hanzy CI
 
 # Chỉ kích hoạt Workflow này khi có Pull Request trỏ vào nhánh main
 on:

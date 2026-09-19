@@ -493,7 +493,7 @@ const rl = readline.createInterface({ input: process.stdin, output: process.stdo
 
 async function initDatabase() {
   console.log('\n========================================================');
-  console.log('🚀 HANVAULT MASTER PIPELINE INITIALIZER');
+  console.log('🚀 Hanzy MASTER PIPELINE INITIALIZER');
   console.log('========================================================\n');
 
   rl.question('⚠️ Xác nhận XOÁ TOÀN BỘ dữ liệu cũ và thiết lập lại hệ thống? (y/N): ', async (answer) => {

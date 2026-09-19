@@ -20,7 +20,7 @@ export default function ForgotPassword() {
       {/* Header tối giản */}
       <header className="w-full p-6 flex justify-between items-center absolute top-0">
         <Link to="/" className="text-2xl font-bold text-brand tracking-tight">
-          HanVault
+          Hanzy
         </Link>
       </header>
 

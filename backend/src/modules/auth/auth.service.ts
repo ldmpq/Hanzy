@@ -185,7 +185,7 @@ export class AuthService {
     const { passwordHash, ...userResponse } = user;
     return {
       ...userResponse,
-      email: userResponse.email || `user_${user.id.toString().slice(0, 6)}@hanvault.com`,
+      email: userResponse.email || `user_${user.id.toString().slice(0, 6)}@Hanzy.com`,
     };
   }
 
