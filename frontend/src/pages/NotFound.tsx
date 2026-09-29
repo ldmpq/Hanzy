@@ -10,7 +10,7 @@ export default function NotFound() {
       {/* HEADER */}
       <header className="w-full py-6 px-8 md:px-16 max-w-[1400px] mx-auto shrink-0">
         <Link to="/" className="text-2xl font-bold text-brand tracking-tight">
-          Hanzy
+          Leafyy
         </Link>
       </header>
 
@@ -20,7 +20,7 @@ export default function NotFound() {
           <div className="absolute inset-0 bg-surface rounded-full shadow-sm border border-line z-0"></div>
           <img 
             src="/images/panda-404.png" 
-            alt="Hanzy 404 Illustration" 
+            alt="Leafyy 404 Illustration" 
             className="relative z-10 w-[115%] h-[115%] object-contain drop-shadow-md hover:scale-105 transition-transform duration-500"
             onError={(e) => {
               e.currentTarget.style.display = 'none';
@@ -34,7 +34,7 @@ export default function NotFound() {
           Trang không tìm thấy
         </h1>
         <p className="text-sub text-base sm:text-lg mb-10 leading-relaxed max-w-md mx-auto">
-          Có vẻ bạn đã đi lạc. Hãy quay lại và tiếp tục khám phá Hanzy.
+          Có vẻ bạn đã đi lạc. Hãy quay lại và tiếp tục khám phá Leafyy.
         </p>
 
         {/* Nút hành động */}
@@ -59,9 +59,9 @@ export default function NotFound() {
       <footer className="w-full bg-surface border-t border-line py-8">
         <div className="max-w-[1400px] mx-auto px-8 md:px-16 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
-            <div className="text-xl font-bold text-brand mb-1">Hanzy</div>
+            <div className="text-xl font-bold text-brand mb-1">Leafyy</div>
             <div className="text-xs font-medium text-sub">
-              © 2026 Hanzy. All rights reserved.
+              © 2026 Leafyy. All rights reserved.
             </div>
           </div>
           

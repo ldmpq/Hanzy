@@ -7,7 +7,7 @@ export default function LandingHero() {
     <section className="flex flex-col lg:flex-row items-center gap-16 mb-32 pt-8">
       <div className="flex-1 max-w-xl">
         <h1 className="text-5xl md:text-6xl font-bold text-main mb-6 leading-[1.1] tracking-tight transition-colors duration-300">
-          Master Chinese Vocabulary with <span className="text-brand">Hanzy</span>
+          Grow your Chinese with <span className="text-brand">Leafyy</span>
         </h1>
         <p className="text-lg text-sub mb-10 leading-relaxed transition-colors duration-300">
           The premium spaced-repetition platform for HSK learners. Achieve fluency with effortless progress, smart tracking, and cultural appreciation.
@@ -27,7 +27,7 @@ export default function LandingHero() {
           
           <img 
             src="/public/images/zen/zen06.jpg" 
-            alt="Hanzy App Interface Illustration" 
+            alt="Leafyy App Interface Illustration" 
             className="w-full h-full object-cover transition-all duration-700 dark:brightness-[0.35] dark:saturate-50 dark:contrast-125"
           />
           

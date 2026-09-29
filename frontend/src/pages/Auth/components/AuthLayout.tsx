@@ -23,7 +23,7 @@ export default function AuthLayout({ children, title, subtitle, activeTab, quote
         <div className="w-full lg:w-1/2 h-full overflow-y-auto flex flex-col custom-scrollbar bg-app z-10 shadow-[4px_0_24px_rgba(0,0,0,0.02)] border-r border-line/50">
           <div className="max-w-[440px] w-full mx-auto my-auto py-12 px-6">
             <div className="flex items-center gap-2 text-xl font-bold text-brand mb-12">
-              <BookOpen className="w-6 h-6" /> Hanzy
+              <BookOpen className="w-6 h-6" /> Leafyy
             </div>
 
             <h1 className="text-4xl font-bold text-main mb-2 tracking-tight">{title}</h1>

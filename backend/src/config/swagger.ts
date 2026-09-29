@@ -9,7 +9,7 @@ const swaggerOptions: swaggerJSDoc.Options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'Hanzy API Documentation',
+      title: 'Leafyy API Documentation',
       version: '1.0.0',
       description: 'Tài liệu API cho hệ thống Website Ôn từ vựng tiếng Trung (theo HSK)',
       contact: {

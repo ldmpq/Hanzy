@@ -33,7 +33,7 @@ export default function Onboarding() {
 
         {/* Thanh Progress 4 bước */}
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-extrabold text-[#9E2A2B] tracking-tight mb-4">Hanzy</h1>
+          <h1 className="text-3xl font-extrabold text-[#9E2A2B] tracking-tight mb-4">Leafyy</h1>
           
           <div className="flex items-center justify-center gap-2 mb-2">
             <div className={`w-6 h-1 rounded-full transition-colors ${step >= 1 ? 'bg-[#9E2A2B]' : 'bg-neutral-200'}`}></div>
