@@ -73,6 +73,9 @@ export default function Translate() {
     };
   }, [inputText, mode, transSource, convSource]);
 
+  const currentSourceLang = mode === 'translate' ? transSource : convSource;
+  const currentTargetLang = mode === 'translate' ? transTarget : convTarget;
+
   const handleSwap = () => {
     if (mode === 'translate') {
       setTransSource(transTarget);
@@ -99,9 +102,6 @@ export default function Translate() {
     setIsCopied(true);
     setTimeout(() => setIsCopied(false), 2000);
   };
-
-  const currentSourceLang = mode === 'translate' ? transSource : convSource;
-  const currentTargetLang = mode === 'translate' ? transTarget : convTarget;
 
   return (
     <div className="min-h-screen bg-app font-sans pb-24 animate-fade-in relative transition-colors px-4 md:px-6">
