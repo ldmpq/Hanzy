@@ -14,7 +14,9 @@ export const translateService = {
     // 2. Lấy bính âm nếu target là tiếng Trung
     let pinyinResult = '';
     if (target.includes('zh')) {
-      pinyinResult = pinyin(translatedText, { toneType: 'num' }); 
+      pinyinResult = pinyin(translatedText); 
+    } else if (source.includes('zh')) {
+      pinyinResult = pinyin(text);
     }
 
     return { translatedText, pinyinResult };
