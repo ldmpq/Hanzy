@@ -17,6 +17,9 @@ export default function Translate() {
   
   const [isLoading, setIsLoading] = useState(false);
   const [isCopied, setIsCopied] = useState(false);
+
+  const currentSourceLang = mode === 'translate' ? transSource : convSource;
+  const currentTargetLang = mode === 'translate' ? transTarget : convTarget;
   
   const debounceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -72,9 +75,6 @@ export default function Translate() {
       if (debounceTimer.current) clearTimeout(debounceTimer.current);
     };
   }, [inputText, mode, transSource, convSource]);
-
-  const currentSourceLang = mode === 'translate' ? transSource : convSource;
-  const currentTargetLang = mode === 'translate' ? transTarget : convTarget;
 
   const handleSwap = () => {
     if (mode === 'translate') {
