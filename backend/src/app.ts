@@ -11,6 +11,8 @@ import topicRoutes from './modules/topic/topic.route';
 import deckRoutes from './modules/deck/deck.route';
 import srsRoutes from './modules/srs/srs.route';
 
+import translateRoutes from './modules/translate/translate.route';
+
 import dashboardRoutes from './modules/dashboard/dashboard.route';
 import libraryRoutes from './modules/library/library.route';
 
@@ -44,6 +46,9 @@ app.use('/api/topics', topicRoutes);
 // Decks & SRS
 app.use('/api/decks', deckRoutes);
 app.use('/api/srs', srsRoutes);
+
+//Translate
+app.use('/api/translate', translateRoutes);
 
 // Dashboard & Library
 app.use('/api/dashboard', dashboardRoutes);

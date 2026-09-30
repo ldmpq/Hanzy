@@ -15,7 +15,7 @@ export default function LandingHeader() {
     <header className="sticky top-0 z-50 w-full bg-app/80 backdrop-blur-md border-b border-line transition-colors duration-300">
       <div className="flex items-center justify-between py-6 px-8 md:px-16 max-w-[1400px] mx-auto">
         <Link to="/" className="text-2xl font-bold text-brand tracking-tight">
-          Hanzy
+          Leafyy
         </Link>
 
         <nav className="hidden lg:flex gap-10 items-center">

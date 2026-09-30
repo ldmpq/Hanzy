@@ -22,7 +22,7 @@ export const useDashboard = () => {
       const response = await axiosClient.get('/dashboard');
       setData(response.data.data); 
       
-    } catch (err: any) {
+    } catch {
       setError('Không thể tải dữ liệu Dashboard. Vui lòng thử lại sau.');
     } finally {
       setIsLoading(false);
